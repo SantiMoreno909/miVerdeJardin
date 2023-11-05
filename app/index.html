@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mi Verde Jardín</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <img src="logo.png" alt="Logo de Mi Verde Jardín" class="nav__logo" />
+          <h2 class="nav__nombre letra-gruesa">Mi Verde Jardín</h2>
+        </div>
+        <div>
+          <a href="#inicio" class="letra-fina">Inicio</a>
+          <a href="#productos" class="letra-fina">Productos</a>
+          <a href="#servicios" class="letra-fina">Servicios</a>
+          <a href="#contacto" class="letra-fina">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h2 class="hero__nombre letra-gruesa">Mi Verde Jardín</h2>
+        <img
+          src="hero_logo.png"
+          alt="Logo de Mi Verde Jardín"
+          class="hero__logo"
+        />
+        <p class="hero_txt letra-fina">¡Bienvenidos a nuestro edén online!</p>
+      </section>
+
+      <section id="productos">
+        <h4 class="section__title letra-gruesa">¿Qué podemos ofrecerte hoy?</h4>
+        <div class="cards-contenedor">
+          <div class="card">Productos</div>
+          <div class="card">Productos</div>
+          <div class="card">Productos</div>
+        </div>
+      </section>
+
+      <section id="servicios">
+        <h4 class="section__title letra-gruesa">¿Necesitas algún servicio?</h4>
+        <div class="cards-contenedor">
+          <div class="card">Servicios</div>
+          <div class="card">Servicios</div>
+        </div>
+      </section>
+
+      <section id="reseñas">
+        <h4 class="section__title letra-gruesa">
+          La opinión de quienes nos conocen
+        </h4>
+        <div class="reseñas__card">Aquí irán las reseñas</div>
+        <a href="#dejar-reseña" class="reseña__btn letra-fina"
+          >¡Quiero dejar mi reseña!</a
+        >
+      </section>
+
+      <section id="carrusel-promocional"></section>
+
+      <section id="contacto">
+        <h4 class="section__title letra-gruesa">¿Quieres contactarnos?</h4>
+        <div class="cards-contenedor">
+          <div class="card">
+            <img
+              src="contacto_img.png"
+              alt="Imagen de contacto"
+              class="contacto__img"
+            />
+            <p class="letra-gruesa">Contactanos</p>
+            <p class="letra-fina">Info de contacto</p>
+            <p class="letra-fina">Info de contacto</p>
+            <p class="contacto__redes letra-fina">
+              ¡También puedes buscarnos en redes sociales!
+            </p>
+            <div class="cards-contenedor">
+              <div class="card">SML</div>
+              <div class="card">SML</div>
+              <div class="card">SML</div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="contacto_img.png"
+              alt="Imagen de contacto"
+              class="contacto__img"
+            />
+            <p class="letra-gruesa">Contactanos</p>
+            <p class="letra-fina">Info de contacto</p>
+            <p class="letra-fina">Info de contacto</p>
+            <p class="contacto__redes letra-fina">
+              ¡También puedes buscarnos en redes sociales!
+            </p>
+            <div class="cards-contenedor">
+              <div class="card">SML</div>
+              <div class="card">SML</div>
+              <div class="card">SML</div>
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="contacto_img.png"
+              alt="Imagen de contacto"
+              class="contacto__img"
+            />
+            <p class="letra-gruesa">Contactanos</p>
+            <p class="letra-fina">Info de contacto</p>
+            <p class="letra-fina">Info de contacto</p>
+            <p class="contacto__redes letra-fina">
+              ¡También puedes buscarnos en redes sociales!
+            </p>
+            <div class="cards-contenedor">
+              <div class="card">SML</div>
+              <div class="card">SML</div>
+              <div class="card">SML</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="formulario">
+        <h4 class="section__title letra-gruesa">
+          ¿Prefieres que te escribamos?
+        </h4>
+        <div class="formulario__relleno-txt">
+          <p class="formulario__txt letra-fina">
+            Tu mensaje irá directo a nuestro correo personal, ¡Prometemos
+            responderte cuanto antes!
+          </p>
+          <p class="formulario__txt letra-fina">
+            También puedes consultar nuestra sección de
+            <a href="#" class="formulario__enlace letra-fina"
+              >Preguntas frecuentes</a
+            >
+          </p>
+        </div>
+        <form>
+          <input
+            type="text"
+            class="letra-fina"
+            placeholder="Nombre y Apellido"
+            id="nombre"
+          />
+          <label for="nombre" class="letra-fina">Nombre y Apellido</label>
+          <input
+            type="tel"
+            class="letra-fina"
+            placeholder="Teléfono Celular"
+            id="telefono"
+          />
+          <label for="telefono" class="letra-fina">Teléfono Celular</label>
+          <input
+            type="email"
+            class="letra-fina"
+            placeholder="Correo Electrónico"
+            id="email"
+          />
+          <label for="email" class="letra-fina">Correo Electrónico</label>
+          <textarea
+            class="letra-fina"
+            placeholder="Mensaje"
+            id="mensaje"
+          ></textarea>
+          <label for="mensaje" class="letra-fina">Mensaje</label>
+          <input type="submit" class="letra-fina" value="Enviar" />
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-enlaces">
+        <a href="#">
+          <div>
+            <img
+              src="logo_footer.png"
+              alt="Logo de Mi Verde Jardín"
+              class="logo__footer"
+            />
+            <h2 class="footer__nombre letra-gruesa">Mi Verde Jardín</h2>
+          </div>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
